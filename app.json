@@ -1,0 +1,26 @@
+{
+  "id": "f532c3dc-7b86-48a4-b3a9-d9f87157b465",
+  "name": "TSL",
+  "publisher": "Toggi Services Limited",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.1",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.32600.33003",
+  "application": "14.1.33107.0",
+  "target": "Extension",
+  "showMyCode": true,
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ]
+}
