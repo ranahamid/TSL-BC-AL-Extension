@@ -3,6 +3,17 @@ pageextension 50104 "PurchaseQuoteExt" extends "Purchase Quote"
 {
     Caption = 'Purchase Requisition';
     AdditionalSearchTerms = 'Purchase Requisition';
+    layout
+    {
+
+    }
+    actions
+    {
+        modify("&Quote")
+        {
+            Caption = '&Requisition';
+        }
+    }
 }
 
 pageextension 50105 "PurchaseQuotesExt" extends "Purchase Quotes"
@@ -32,19 +43,4 @@ pageextension 50108 "PurchaseQuoteSubformExt" extends "Purchase Quote Subform"
     AdditionalSearchTerms = 'Purchase Requisition Subform';
 }
 
-pageextension 50109 "RoleCenter" extends "Business Manager Role Center"
-{
-    actions
-    {
-        modify("Purchase Quote")
-        {
-            Caption = 'Purchase Requisition';
-            ToolTip = 'Create a new Purchase Requisition.';
-        }
 
-        modify("Purchase Quotes")
-        {
-            Caption = 'Purchase Requisitions';
-        }
-    }
-}
