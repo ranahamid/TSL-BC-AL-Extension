@@ -4,19 +4,20 @@
   "publisher": "Toggi Services Limited",
   "brief": "",
   "description": "",
-  "version": "1.0.0.3",
+  "version": "1.0.0.4",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
   "url": "",
   "logo": "tsl.png",
-  "capabilities": [],
+
   "dependencies": [],
   "screenshots": [],
   "platform": "14.0.32600.33003",
   "application": "14.1.33107.0",
   "target": "Extension",
   "showMyCode": true,
+  "runtime": "3.2",
   "idRanges": [
     {
       "from": 50100,
